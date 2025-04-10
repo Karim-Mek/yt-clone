@@ -6,6 +6,8 @@ import { IoNotificationsOutline, IoNotifications } from "react-icons/io5";
 import { RxAvatar } from "react-icons/rx";
 import { useState } from "react";
 
+import YtLogo from "../assets/images/yt-logo.png";
+
 export default function Header({ onToggleSidebar }) {
   const [openNotif, setOpenNotif] = useState(false);
 
@@ -30,11 +32,7 @@ export default function Header({ onToggleSidebar }) {
             </svg>
           </button>
           <a className="logo w-[90px]">
-            <img
-              className="w-[100%]"
-              src="/src/assets/images/yt-logo.png"
-              alt="Youtube Logo"
-            />
+            <img className="w-[100%]" src={YtLogo} alt="Youtube Logo" />
           </a>
         </div>
         <div className="flex">
