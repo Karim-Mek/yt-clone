@@ -1,0 +1,57 @@
+body, html, * {
+  box-sizing: border-box;
+  /* padding: 0; */
+  /* margin: 0; */
+  font-family: Youtube-Sans, sans-serif;
+}
+
+body {
+  min-height: 1500px;
+  color: #212121;
+
+}
+
+h1 {
+  font-weight: 700;
+}
+
+button,
+.button,
+a {
+  cursor: pointer;
+}
+
+body.no-scroll {
+  /* overflow: hidden; */
+  /* scrollbar-width: none; */
+}
+
+body.no-scroll::-webkit-scrollbar {
+  display: block !important;
+}
+
+/* body.no-scroll::-webkit-scrollbar-button {
+  display: block !important;
+} */
+
+body.no-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent !important;
+}
+
+/* body.no-scroll::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0) !important;
+} */
+
+.sidebar-hidden {
+  transform: translateX(-100%);
+}
+
+.sidebar-visible {
+  transform: translateX(0);
+}
+
+.sidebar {
+  transition: transform 0.2s ease;
+}
+
+.video-info {}

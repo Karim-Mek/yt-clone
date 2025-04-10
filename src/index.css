@@ -1,0 +1,45 @@
+@import "./assets/fonts/fonts.css";
+@import "tailwindcss";
+
+:root {
+  --color-primary-text: #212121;
+  
+  --color-red-yt: #FA0033;
+  --color-red-notif: #E1002D;
+  --color-gray-yt: #f0f0f0;
+  --color-gray-button: #f8f8f8;
+  /* Search button,  */
+  --color-gray-border: #c6c6c6;
+  /* --color-gray-tag-bg: #F2F2F2; */
+  --color-gray-tag-bg: rgba(0, 0, 0, 0.05);
+  --color-gray-tag-hover-bg: #E5E5E5;
+  --color-gray-tag-active-bg: #C4C4C4;
+  
+  --font-youtube-sans: Youtube-Sans, sans-serif;
+}
+
+@theme {
+  --color-primary-text: #212121;
+
+  --color-red-yt: #FA0033;
+  --color-red-notif: #E1002D;
+  --color-gray-yt: #f0f0f0;
+  --color-gray-button: #f8f8f8;
+  /* Search button,  */
+  --color-gray-border: #c6c6c6;
+  /* --color-gray-tag-bg: #F2F2F2; */
+  --color-gray-tag-bg: rgba(0, 0, 0, 0.05);
+  --color-gray-tag-hover-bg: #E5E5E5;
+  --color-gray-tag-active-bg: #C4C4C4;
+
+  --font-youtube-sans: Youtube-Sans, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
