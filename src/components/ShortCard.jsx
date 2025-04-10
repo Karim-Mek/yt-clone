@@ -1,6 +1,6 @@
 export default function ShortCard({ thumb, title, views }) {
   return (
-    <div className="short-card">
+    <div className="short-card cursor-pointer">
       <div className="thumb h-[22rem]">
         <img src={thumb} alt="Short Thumb" className="rounded-lg h-[100%]" />
       </div>

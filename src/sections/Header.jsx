@@ -13,7 +13,7 @@ export default function Header({ onToggleSidebar }) {
 
   return (
     <>
-      <header className="py-2 px-4 flex justify-between items-center fixed top-0 left-0 w-full">
+      <header className="py-2 px-4 flex justify-between items-center fixed top-0 left-0 w-full bg-white z-50">
         {/* fixed top-0 left-0 w-full */}
         <div className="flex items-center gap-4">
           <button

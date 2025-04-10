@@ -1,3 +1,5 @@
+import YtLogo from "../assets/images/yt-logo.png";
+
 // Sidebar Icons:
 import { GoChevronRight, GoChevronDown } from "react-icons/go";
 import { RxAvatar, RxVideo } from "react-icons/rx";
@@ -526,7 +528,7 @@ const sidebarOptions = {
 export default function Sidebar({ sidebarClass, onToggleSidebar }) {
   return (
     <div
-      className={`sidebar ${sidebarClass} fixed top-0 left-0 bg-white h-full w-[240px] overflow-y-scroll`}
+      className={`sidebar ${sidebarClass} fixed top-0 left-0 bg-white h-full w-[240px] overflow-y-scroll z-50`}
     >
       {/* Sidebar Header */}
       <div className="flex items-center gap-4 py-2 px-4 sticky bg-white top-0 left-0 w-full">
@@ -547,11 +549,7 @@ export default function Sidebar({ sidebarClass, onToggleSidebar }) {
           </svg>
         </button>
         <a className="logo w-[90px]">
-          <img
-            className="w-[100%]"
-            src="/src/assets/images/yt-logo.png"
-            alt="Youtube Logo"
-          />
+          <img className="w-[100%]" src={YtLogo} alt="Youtube Logo" />
         </a>
       </div>
 
